@@ -315,8 +315,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u30AB\u30E1\u30E9\u4F4D\u7F6E\u30D5\u30A9\u30EB\u30C0\u6307\u5B9A"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 83a2f61f758f3ca46829596fed01ff07, type: 2}
-  m_sharedMaterial: {fileID: 6822173152914059454, guid: 83a2f61f758f3ca46829596fed01ff07, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ceb15bcb468d6bc4e9e44957eeeba858, type: 2}
+  m_sharedMaterial: {fileID: 7917979220579370912, guid: ceb15bcb468d6bc4e9e44957eeeba858, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -797,6 +797,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423333842}
   m_CullTransparentMesh: 1
+--- !u!1 &1765080697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765080699}
+  - component: {fileID: 1765080698}
+  m_Layer: 0
+  m_Name: Pythonconsole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1765080698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765080697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e5193fff339e946b10d57a545079ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1765080699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765080697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1807779574
 GameObject:
   m_ObjectHideFlags: 0

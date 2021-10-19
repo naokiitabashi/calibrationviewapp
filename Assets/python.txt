@@ -1,0 +1,12 @@
+import UnityEngine
+from UnityEngine import *
+
+#Pythonのライブラリのインポート
+import sys
+sys.path.append('-\Assets\PythonLibrary\Lib')
+
+UnityEngine.Debug.Log("Hello World")
+
+scope.testInt = 2
+
+scope.debugLog()
